@@ -10,9 +10,9 @@ my_cur=db.cursor()
 
 def entry():
     root=Tk()
-    root.title('covid system management')
+    root.title('covid patient management')
     root.geometry('250x300')
-    Label(root,text="Pateint detail Form",font='arial 14 bold',bg="yellow").grid(row=0,columnspan=2)
+    Label(root,text="Patient detail Form",font='arial 14 bold',bg="yellow").grid(row=0,columnspan=2)
     Label(root,text="").grid(row=1,column=0)
     Label(root,text="serialno",bg="pink").grid(row=2,column=0)
     Label(root,text="").grid(row=3,column=0)
